@@ -1,0 +1,11 @@
+# firecrawl can be installed with pip ["pip install firecrawl-py"]
+streamlit
+langchain-community
+langchain-openai
+pinecone-client
+openai
+streamlit
+python-dotenv
+pydantic
+tqdm
+requests

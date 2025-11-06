@@ -1,0 +1,32 @@
+# Core dependencies
+streamlit
+python-dotenv
+openai
+pinecone-client
+firecrawl-py
+sentence-transformers
+requests
+tqdm
+pydantic
+
+# LangChain compatibility
+# Choose one of the following options depending on which LangChain major
+# version you want to use.
+
+# Option A: LangChain 0.x (monolithic, recommended for older codepaths)
+# Uncomment to install the monolithic langchain package:
+# langchain<1
+
+# Option B: LangChain 1.x (modular). If you prefer LangChain 1.x install
+# the modular packages in addition to the core requirements above:
+# langchain_text_splitters
+# langchain_community
+# langchain_openai
+# langchain_groq  # optional, only if you use Groq models
+
+# Notes:
+# - If you install LangChain 1.x, you may also need to install provider-specific
+#   packages (e.g. langchain_openai or langchain_groq) depending on which LLM
+#   provider you use.
+# - You can install with: `pip install -r requirements-recommended.txt` and then add the
+#   LangChain 1.x modular packages if desired.
