@@ -11,7 +11,3 @@ python-dotenv
 pydantic
 tqdm
 requests
-<<<<<<< HEAD
-=======
-
->>>>>>> 07f2fed (Add firecrawl dependency)
