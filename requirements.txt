@@ -1,4 +1,6 @@
 # firecrawl can be installed with pip ["pip install firecrawl-py"]
+firecrawl-py
+sentence-transformers
 streamlit
 langchain-community
 langchain-openai
@@ -9,4 +11,7 @@ python-dotenv
 pydantic
 tqdm
 requests
-firecrawl
+<<<<<<< HEAD
+=======
+
+>>>>>>> 07f2fed (Add firecrawl dependency)
